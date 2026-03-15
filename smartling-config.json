@@ -1,0 +1,14 @@
+{
+    "locales": [
+        { "smartling": "fr-FR", "application": "fr_FR" }
+    ],
+    "resourceSets": [
+        {
+            "type": "javaProperties",
+            "pathRegex": "messages/(?<name>.*)\\.properties",
+            "translationPathExpression": "translations/${name}_${locale}.${originalFile.extension}",
+            "translationCommitMessage": "Translate ${originalFile.name} to ${locale}",
+            "authorizeContent": true
+        }
+    ]
+}
