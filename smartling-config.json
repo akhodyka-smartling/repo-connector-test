@@ -1,6 +1,6 @@
 {
     "locales": [
-        { "smartling": "fr-FR", "application": "fr_FR" }
+        { "smartling": "en", "application": "en" }
     ],
     "resourceSets": [
         {
